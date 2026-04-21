@@ -51,15 +51,19 @@ updated: 2026-04-21
 ## Syntesser (`wiki/synthesis/`)
 
 - [[studieplan]] — 44-dagarsplan mot betyg C; fas 1–4; tentataktik och uppgiftsprioriteringar
+- [[tentaanalys]] — Fullständig analys av 8 gamla tentor (2022–2025); frekvenstabeller; korrigerade prioriteringar
 
 ---
 
 ## Källor (`sources/`)
 
+### Föreläsningar
+
 | Fil | Ämne |
 |-----|------|
 | `2026-04-21-F1-ADT-Lista-On.md` | ADT, Lista, ArrayList, O-notation |
 | `2026-04-21-F2-LankadLista-Iterator.md` | Länkad lista, Iterator, dubbellänkad |
+| `2026-04-21-F3-Stack.md` | Stack, LIFO, ArrayStack, LinkedStack, postfix |
 | `2026-04-21-F4-Ko.md` | Kö, FIFO, cirkulär array, JCF Queue |
 | `2026-04-21-F5-Rekursion.md` | Rekursion, binär sökning, fibonacci, GCD |
 | `2026-04-21-F6-Backtracking.md` | Backtracking, BFS, DFS, Hanoi |
@@ -72,7 +76,18 @@ updated: 2026-04-21
 | `2026-04-21-F13-Sondra-Harska.md` | Söndra-härska, maximal delsekvens, skyline, closest pair |
 | `2026-04-21-F14-Dynamisk-Programmering.md` | DP, fibonacci, Floyd-Warshall, kappsäck, Held-Karp |
 
-**Ej ingestade:** F3 (Stack) — källfil finns men ingen wikisida ännu
+### Gamla tentor
+
+| Fil | Tenta |
+|-----|-------|
+| `2026-04-21-tenta-2025-06-03.md` | 2025-06-03 — matrisväg, iterator, BST, MST/Prim |
+| `2026-04-21-tenta-2025-03-10.md` | 2025-03-10 — Kö, skolgårdslek, BST, söndra-härska |
+| `2026-04-21-tenta-2024-06-04.md` | 2024-06-04 — iterator, backtracking, Heap, BST-complete |
+| `2026-04-21-tenta-2024-03-13.md` | 2024-03-13 — Stack, nå-1-problem, BST, labyrint BFS |
+| `2026-04-21-tenta-2023-06-07.md` | 2023-06-07 — BST-BFS, matrismax, mergesort, HashMap-par |
+| `2026-04-21-tenta-2023-03-15.md` | 2023-03-15 — parenteser/Stack, klocka DP, BST, heap-validering |
+| `2026-04-21-tenta-2022-06-10.md` | 2022-06-10 — BST, hoppspel BFS, selection sort, Dijkstra |
+| `2026-04-21-tenta-2022-03-17.md` | 2022-03-17 — LinkedList, matrismax, BST, kappsäck |
 
 ---
 
@@ -82,6 +97,7 @@ updated: 2026-04-21
 | ----------------- | ---------- |
 | Entiteter         | 22         |
 | Teman             | 1          |
-| Syntesser         | 1          |
-| Källor ingestade  | 14 av 14 ✓ |
+| Syntesser         | 2          |
+| Föreläsningar     | 14 av 14 ✓ |
+| Gamla tentor      | 8 av 8 ✓  |
 | Senast uppdaterad | 2026-04-21 |

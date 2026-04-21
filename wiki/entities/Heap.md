@@ -95,9 +95,15 @@ m=n; medan m>1: a[m-1]=poll(a,m); m--  // rot (max) → sist
 2. **Heapsort** — in-place O(n log n) utan worst-case O(n²)
 3. **Top-k** — hitta de k minsta/största elementen ur n element effektivt
 
+> [!note] Återkommande teorifråga och programmeringsuppgift
+> - Teorifråga: "Ange och motivera ordo för insättning och borttagning i en heap" (2024-03)
+> - Programmeringsuppg: Implementera min-heap med array (offer/poll) (2024-06)
+> - Programmeringsuppg: Validera om array representerar en min-heap (2023-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Binärt träd]] — generell trädstruktur
-- [[Heapsort]] → se denna sida
 - [[Dijkstras algoritm]] — använder min-heap (PriorityQueue)
-- [[Sortering]] — jämförelse med andra sorteringsalgoritmer
+- [[Sorteringsalgoritmer]] — jämförelse med andra sorteringsalgoritmer
+- [[tentaanalys]] — frekvensanalys av teorifrågor

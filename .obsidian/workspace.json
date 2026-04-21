@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/entities/Länkad lista.md",
-                "mode": "source",
+                "file": "wiki/synthesis/studieplan.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Länkad lista"
+              "title": "studieplan"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/entities/Länkad lista.md",
+                "file": "wiki/synthesis/studieplan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Länkad lista"
+              "title": "Backlinks for studieplan"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/entities/Länkad lista.md",
+                "file": "wiki/synthesis/studieplan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Länkad lista"
+              "title": "Outgoing links from studieplan"
             }
           },
           {
@@ -156,16 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/entities/Länkad lista.md",
+                "file": "wiki/synthesis/studieplan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Länkad lista"
+              "title": "Outline of studieplan"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -185,41 +186,42 @@
   },
   "active": "82ab6b1934a8a3cc",
   "lastOpenFiles": [
+    "wiki/entities/Söndra och härska.md",
     "wiki/synthesis/studieplan.md",
-    "Untitled.base",
-    "Untitled.canvas",
-    "Welcome.md",
-    "Untitled 1.base",
-    "Untitled 2.base",
-    "Untitled 3.base",
-    "wiki/topics/sorteringsalgoritmer.md",
     "wiki/entities/Binärt sökträd.md",
-    "sources/2026-04-21-F9-Sortering.md",
-    "create a link.md",
-    "CLAUDE.md",
+    "wiki/entities/Rekursion.md",
+    "wiki/entities/Kö.md",
+    "wiki/entities/Stack.md",
     "wiki/entities/Länkad lista.md",
     "wiki/entities/ADT Lista.md",
+    "wiki/synthesis/tentaanalys.md",
     "wiki/entities/O-notation.md",
+    "CLAUDE.md",
+    "create a link.md",
+    "Welcome.md",
+    "Untitled.base",
+    "Untitled 1.canvas",
+    "wiki/entities/Binärt sökträd.md.tmp.224657.1776802785715",
+    "wiki/entities/Rekursion.md.tmp.224657.1776802747757",
+    "wiki/entities/O-notation.md.tmp.224657.1776802700145",
+    "wiki/synthesis/tentaanalys.md.tmp.224657.1776802653084",
+    "sources/2026-04-21-tenta-2025-03-10.md",
+    "Untitled.canvas",
+    "wiki/log.md.tmp.224657.1776802195178",
+    "wiki/index.md.tmp.224657.1776802186040",
+    "wiki/synthesis/tentaanalys.md.tmp.224657.1776802153733",
+    "sources/2026-04-21-tenta-2022-03-17.md",
+    "sources/2026-04-21-tenta-2022-03-17.md.tmp.224657.1776802091393",
+    "sources/2026-04-21-tenta-2022-06-10.md",
+    "sources/2026-04-21-tenta-2022-06-10.md.tmp.224657.1776802070805",
+    "sources/2026-04-21-tenta-2023-03-15.md",
+    "sources/2026-04-21-tenta-2023-06-07.md",
+    "sources/2026-04-21-tenta-2024-03-13.md",
+    "sources/2026-04-21-tenta-2024-06-04.md",
+    "sources/2026-04-21-tenta-2025-06-03.md",
+    "wiki/topics/sorteringsalgoritmer.md",
+    "sources/2026-04-21-F9-Sortering.md",
     "wiki/index.md",
-    "wiki/entities/Kö.md",
-    "wiki/log.md.tmp.67333.1776774736956",
-    "wiki/index.md.tmp.67333.1776774728708",
-    "wiki/index.md.tmp.67333.1776774727844",
-    "wiki/index.md.tmp.67333.1776774726433",
-    "wiki/index.md.tmp.67333.1776774723687",
-    "wiki/synthesis/studieplan.md.tmp.67333.1776774716425",
-    "wiki/entities/Stack.md",
-    "sources/2026-04-21-F3-Stack.md",
-    "wiki/entities/Graf.md",
-    "wiki/entities/Floyd-Warshall.md",
-    "wiki/entities/Söndra och härska.md",
-    "wiki/entities/Girig algoritm.md",
-    "sources/2026-04-21-F14-Dynamisk-Programmering.md",
-    "wiki/entities/Dynamisk programmering.md",
-    "wiki/entities/Dijkstras algoritm.md",
-    "sources/2026-04-21-F13-Sondra-Harska.md",
-    "sources/2026-04-21-F1-ADT-Lista-On.md",
-    "sources/2026-04-21-F12-Giriga-Algoritmer.md",
-    "sources/2026-04-21-F11-Graf-Dijkstra-Prim.md"
+    "sources/2026-04-21-F3-Stack.md"
   ]
 }

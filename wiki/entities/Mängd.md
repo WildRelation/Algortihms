@@ -42,8 +42,13 @@ En mängd är en samling element **utan kopior** — varje element förekommer m
 - Bevara insättningsordning → `LinkedHashSet`
 - Mängd av heltal i litet intervall → `BitSet`
 
+> [!note] Återkommande teorifråga
+> "Beskriv termerna mängd och avbildning. Beskriv kort hur man kan implementera en avbildning." (2023-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Avbildning]] — mängd av nyckel-värde-par
 - [[Hashtabell]] — implementation av HashSet
 - [[Binärt sökträd]] — implementation av TreeSet
+- [[tentaanalys]] — frekvensanalys av teorifrågor

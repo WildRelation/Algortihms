@@ -50,7 +50,12 @@ Ett binärt träd är antingen:
 
 Se [[Binärt sökträd]] för traverseringsalgoritmer (gäller alla binära träd).
 
+> [!note] Återkommande teorifråga
+> "Beskriv termerna fullt, komplett och balanserat i kontexten binärt träd" (2023-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Binärt sökträd]] — ordnat binärt träd
 - [[Heap]] — komplett binärt träd med heap-egenskap
+- [[tentaanalys]] — frekvensanalys av teorifrågor

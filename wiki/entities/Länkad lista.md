@@ -77,8 +77,16 @@ for (int v : aList) { ... }
 - `hasPrevious()` / `previous()` — bakåttraversering
 - Hämtas: `aList.listIterator(startIndex)`
 
+> [!note] Återkommande teorifråga och programmeringsuppgift
+> - Teorifråga: "Vad är en iterator? När/varför viktigt för effektiviteten?" (2025-03)
+> - Teorifråga: "Array vs länkad lista — minst 2 för- och nackdelar" (2022-06)
+> - Programmeringsuppg: Iterator, evenIterator (2025-06, 2024-06)
+> - Programmeringsuppg: remove + size rekursivt (2022-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Kö]] — en av LinkedLists implementeringsroller
 - [[Stack]] — kan implementeras med länkad lista
-- [[Iterator]] — nyckelkoncept för effektiv traversering
+- [[ADT Lista]] — arraybaserat alternativ
+- [[tentaanalys]] — frekvensanalys av teorifrågor

@@ -44,8 +44,13 @@ En avbildning är en **mängd av ordnade par (nyckel, värde)**. Nycklarna är u
 - Sorterade nycklar, range-frågor → `TreeMap`
 - Bevara insättningsordning → `LinkedHashMap`
 
+> [!note] Återkommande teorifråga
+> "Beskriv termerna mängd och avbildning. Beskriv kort hur man kan implementera en avbildning." (2023-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Mängd]] — avbildning är en utökning av mängden
 - [[Hashtabell]] — implementerar HashMap
 - [[Binärt sökträd]] — implementerar TreeMap
+- [[tentaanalys]] — frekvensanalys av teorifrågor

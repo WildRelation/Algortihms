@@ -84,8 +84,15 @@ Välj BST om du behöver sorterad iteration eller närmaste element.
 - `HashSet<E>` — mängd via hashtabell
 - `LinkedHashMap` / `LinkedHashSet` — bevarar insättningsordning
 
+> [!note] Återkommande teorifråga
+> Hashtabell dyker upp som teorifråga i 2 av 8 tentor:
+> - "equals och hashCode från Object — hur hänger de ihop?" (2023-06)
+> - "Öppen adressering — hur hanterar kollisioner för put/get/remove?" (2022-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 - [[Mängd]] — ett av de ADT:er som hashtabell implementerar
 - [[Avbildning]] — det andra ADT:t
 - [[Binärt sökträd]] — alternativt sätt att implementera Map/Set
 - [[Länkad lista]] — används i länkningsmetoden
+- [[tentaanalys]] — frekvensanalys av teorifrågor

@@ -67,9 +67,15 @@ private void reallocate() {
 - **Mycket insättning/borttagning mitt i med iterator** → `LinkedList`
 - **Behöver Queue/Deque** → `LinkedList` eller `ArrayDeque`
 
+> [!note] Återkommande teorifråga
+> - "Vad är en abstrakt datatyp? Förhållande till datastrukturer?" (2024-06)
+> - "add(E) på lista med array — O i olika fall och amorterat snitt" (2023-06)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Länkad lista]] — alternativ implementation
 - [[Stack]] — LIFO-lista
 - [[Kö]] — FIFO-lista
 - [[O-notation]] — analys av listoperationer
+- [[tentaanalys]] — frekvensanalys av teorifrågor

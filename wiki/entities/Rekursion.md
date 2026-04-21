@@ -76,9 +76,13 @@ int fak(int n, int result, int factor){
 | Hanoi | O(2^n) | Optimal lösning |
 | Mergesort | O(n log n) | Söndra-härska |
 
+> [!note] Återkommande teorifråga
+> "Vad är för- och nackdelar med en rekursiv lösning jämfört med en iterativ?" (2024-03)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 - [[Backtracking]] — rekursion + tidig avbrytning
 - [[DFS]] — djupet-först via rekursionsstacken
 - [[Binär sökning]] — klassisk rekursiv algoritm
 - [[Dynamisk programmering]] — effektiviserar rekursion
-- [[Tornet i Hanoi]]
+- [[tentaanalys]] — frekvensanalys av teorifrågor

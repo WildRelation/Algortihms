@@ -77,8 +77,16 @@ Amorterat O(1) eftersom dubbling sker sällan: n insättningar kostar totalt O(n
 - ≤4m adds: 3m kopieringar
 Totalt efter n adds: ~2n kopieringar → O(1) amorterat
 
+> [!note] Återkommande teorifråga
+> O-notation är den **mest frekventa teorifrågan** — dyker upp i 3 av 8 tentor:
+> - "Förklara O(n³), ge 2 komplexitetsfunktioner som skiljer sig" (2025-03)
+> - "Varför analysera algoritmers effektivitet teoretiskt?" (2022-06)
+> - "add(E) på lista med array — O i olika fall och amorterat" (2023-06)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Sorteringsalgoritmer]] — tillämpad analys av alla sorteringsalgoritmer
 - [[Rekursion]] — rekurrensrelationer T(n) = 1 + T(n/2) → O(log n)
 - [[Binär sökning]] — klassiskt O(log n)-bevis
+- [[tentaanalys]] — frekvensanalys av teorifrågor

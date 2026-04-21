@@ -89,9 +89,17 @@ Jämförande sortering kan **aldrig** bli bättre än **O(n log n)** i värsta f
 | Flercifrigt tal/sträng | Radix sort |
 | Standardbibliotek Java | `Arrays.sort()` / `Collections.sort()` |
 
+> [!note] Återkommande teorifråga och programmeringsuppgift
+> - Teorifråga: "Selection sort — O för jämförelser och platsbyten, motivera" (2024-06)
+> - Teorifråga: "Quicksort worst-case O(n²) — hur uppkommer det?" (2022-03)
+> - Programmeringsuppg: Mergesort implementation (2023-06)
+> - Programmeringsuppg: Sortering med minsta antal platsbyten / Selection sort (2022-06)
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Heap]] — datastruktur för Heapsort och prioritetskö
 - [[Rekursion]] — Mergesort och Quicksort är rekursiva
 - [[Söndra och härska]] — Mergesort, Quicksort, Shellsort-paradigm
 - [[O-notation]] — analys av alla ovanstående
+- [[tentaanalys]] — frekvensanalys av teorifrågor

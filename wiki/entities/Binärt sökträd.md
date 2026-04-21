@@ -80,9 +80,15 @@ public class BinarySearchTree<E extends Comparable<E>> {
 - Implementera ordnad mängd (set) eller avbildning (map)
 - Söka med nyckel (t.ex. telefonnummer via namn)
 
+> [!note] Kritisk tentauppgift + teorifråga
+> BST är det **mest frekventa ämnet** på tentan — dyker upp som teorifråga och i 5 av 8 programmeringsuppgifter:
+> - Teorifråga: "Definiera ett binärt sökträd" (2025-06)
+> - add, find, inorder, höjd, siblings, nrOfValuesInRange, isBalanced, complete m.m.
+> Se [[tentaanalys]] för fullständig lista.
+
 ## Relaterat
 
 - [[Binärt träd]] — generell trädstruktur
-- [[Självbalanserande BST]] — Red-Black Tree, AVL-träd
 - [[Heap]] — annat binärt träd (prioritetskö)
 - [[Rekursion]] — traversering och operationer är rekursiva
+- [[tentaanalys]] — frekvensanalys av teorifrågor
