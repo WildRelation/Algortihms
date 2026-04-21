@@ -1,0 +1,20 @@
+1.  a)  Att lägga till (add) eller ta bort (remove) data (förutom på ett fast avstånd från slutet) i listan är O(n) för en array men O(1) för
+        en enkellänkad lista (om vi förutsätter att vi redan har access till noden innan den som innehåller datat). Den blir O(n) för en array eftersom
+        alla data efter platsen måste flyttas ett steg. Den blir O(1) för den enkellänkade listan eftersom man bara behöver flytta om länkarna lokalt.
+
+    b)  Att lägga till (add) data sist i en lista är O(n) för en enkellänkad lista om vi inte redan har tillgång till den sista noden eftersom vi då måste
+        gå igenom hela listan för att koma till sist anoden. För en array är detta O(1) eftersom vi kan använda array:ens index.
+
+    b)  Att läsa (get) data från en plats som inte är först (egentligen på ett fast avstånd från starten och egentligen inte sist om vi har en tail) är O(n)
+        för en enkellänkad lista och O(1) för en array. Den blir O(n) för en länkad lista eftersom vi via head måste gå via alla noder som ligger före den
+        plats vi vill nå. Den blir O(1) för en array eftersom vi kan nå godtycklig plats via index i en array.
+
+    d)  Att lägga till (add) data till en lista är O(n) om vi använder en array och denna är full eftersom vi då måste flytta alla data till en ny array. En
+        enkellänkad lista växer dynamiskt och blir aldrig full. Dock i genomsnitt blir det O(1) även för array:en om vi dubblar array:ens storlek när array:en
+        blir full.
+
+2.  Ett binärt sökträd har en rotnod som har två barn. Den vänstra noden är en rotnod i ett binärt sökträd där alla noder har data som är mindre än rotnodens
+    data och den högra noden är rot nod i ett binärt sökträd där alla noder har data som är större än rotnodens data. Detta gör att när vi söker data kan
+    i varje steg kan halvera sökmaterialet genom att välja vänster eller höger subträd beroende på datat i rotnoden. Vi halverar då alltså materialet vi
+    behöver söka med i O(1). När man halverar materialet man söker i varje steg får man O(log(n)). Det kan också beskrivas som att om vi dubblar materialet
+    vi söker i, ökar antalet steg vi maximalt behöver göra med ett. Detta om vänster och höger träd i varje subträd är ungefär lika stora (balanserade).

@@ -1,0 +1,5 @@
+1.  Ett binärt sökträd är antingen tomt eller så har rotnoden två subträd som också är binära sökträd.
+    Alla nycklar i det vänstra subträdet är mindre än rotnodens nyckel och alla nycklar i det högra subträdet är större än rotnodens nyckel.
+
+2.  En algoritm är ett begränsat antal instruktioner/steg för att lösa en uppgift, som från givna indata med säkerhet leder till korrekta utdata. Varje steg skall vara exakt bestämt.
+    Resultatet av varje steg är entydigt. Agoritmen når målet efter ett ändligt antal steg.

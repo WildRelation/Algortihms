@@ -1,0 +1,14 @@
+Uppgift 1:
+Att en algoritm är O(n^3) betyder för stora värden på n så ökar tiden som konstant*n^3.
+Två exempel på komplexitetsfunktioner som har O(n^3) är T(n)=7n^3+2n^2 och T(n)=1/10*n^3+log(n).
+Algoritmerna för de två skiljer sig åt på flera sätt. För stora n kommer den första att öka i tid med n 70 gånger snabbare än den andra.
+De har samma beteende för stora n att de växer som n^3 men konstanten framför är olika vilket ger en stor faktisk skillnad i tid. Dock gäller
+hur liten konstant man än har framför n^3 kommer denna att växa fortare än t.ex n^2 för tillräckligt stora n. Vidare har de ganska olika beteenden
+för mindre n. Den första har en n^2 term som också växer fort och för medelstora n kommer ha betydelse medans den andra har log(n) som växer
+betydlig långsammare. Dock gäller att för tillräckligt stora n blir dessa termer försumbara.
+
+Uppgift 2:
+En iterator är ett objekt som låter oss gå igenom alla element i en datastruktur såsom en lista. Vissa datastrukturer kan vara organiserade så att det
+är O(n) att nå ett enskilt element och att då utifrån gå igenom alla element blir O(n^2). Detta gäller t.ex för en länkad lista. En iterator kan då
+hålla reda på vilket element (nod) vi ligger på så att vi kan nå elementen i O(1). Detta kan vi inte göra utifrån eftersom vi inte har tillgång till den
+inre strukturen (noderna).
