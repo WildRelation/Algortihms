@@ -2,13 +2,59 @@
 type: entity
 tags: [länkad lista, datastruktur, iterator, JCF]
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-22
 sources: [F2-LankadLista-Iterator]
 ---
 
 # Länkad lista
 
 En länkad lista är en sekventiell datastruktur där varje element (nod) innehåller data och en eller flera pekare till grannarna. Till skillnad från en array behöver elementen inte ligga i minneskontinuitet.
+
+## Minnesmodell — referens vs objekt
+
+Det vanligaste missförståndet med länkade listor är skillnaden mellan **referens** och **objekt**.
+
+**`head` är inte en nod — det är en referens till en nod.**
+
+```java
+private Node<E> head;  // referensvariabel, pekar på ingenting (null) från start
+```
+
+`head` är av typen `Node<E>`, men det betyder att den *kan hålla adressen till* ett Node-objekt — inte att objektet finns. Innan något läggs till i listan är `head = null`.
+
+**`Node<E> next` inuti noden skapar heller ingen nod.**
+
+```java
+private class Node<E> {
+    E data;
+    Node<E> next;   // bara en referensplats, = null tills den kopplas
+}
+```
+
+Att deklarera `Node<E> next` reserverar en referensplats i objektet. Inget nytt objekt skapas förrän `new Node<>(data)` anropas.
+
+**Kedjan byggs explicit:**
+
+```
+head ──► [ data | next ] ──► [ data | next ] ──► null
+            nod 1                 nod 2
+```
+
+- `head` → pekar på nod 1
+- `nod1.next` → pekar på nod 2
+- `nod2.next` → `null` (ingen mer nod)
+
+`head` navigerar inte "med hjälp av next" — `head` är en egen referens till första noden. Varje nods `.next`-fält tar dig sedan till nästa nod i kedjan.
+
+**Att lägga till en nod:**
+
+```java
+Node<E> nod = new Node<>(data);  // skapar ett nytt objekt
+nod.next = head;                 // kopplar det till kedjan
+head = nod;                      // head pekar nu på den nya noden (prepend)
+```
+
+---
 
 ## Varianter
 

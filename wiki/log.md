@@ -56,3 +56,13 @@ F1, F2, F4, F5, F6, F7, F8, F9, F10, F11, F12, F13, F14
 **Viktig korrigering:** Uppgift 6 är INTE alltid HashMap. Uppgift 5 är inte alltid BST (Heap 2024-06, Mergesort 2023-06). BST, Rekursion+DP och BFS är de tre absolut viktigaste ämnena.
 
 ---
+
+## 2026-04-22
+
+### QUERY — Iterator (djupdykning)
+- Fråga: "Vad är en iterator och hur fungerar den?"
+- Svarade från [[Länkad lista]], [[F2-LankadLista-Iterator]], [[tentaanalys]]
+- Ny syntes skapad: `wiki/synthesis/iterator-djupdykning.md` — Iterable vs Iterator, O(n) vs O(n²)-argumentet, implementering av privat inre klass, tentavarianterna evenIterator och iterator(index)
+- Index uppdaterat (3 syntesser)
+
+---

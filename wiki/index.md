@@ -52,6 +52,7 @@ updated: 2026-04-21
 
 - [[studieplan]] — 44-dagarsplan mot betyg C; fas 1–4; tentataktik och uppgiftsprioriteringar
 - [[tentaanalys]] — Fullständig analys av 8 gamla tentor (2022–2025); frekvenstabeller; korrigerade prioriteringar
+- [[iterator-djupdykning]] — Komplett guide: Iterable vs Iterator, O(n) vs O(n²), implementering av inre klass, tentavarianter
 
 ---
 
@@ -97,7 +98,7 @@ updated: 2026-04-21
 | ----------------- | ---------- |
 | Entiteter         | 22         |
 | Teman             | 1          |
-| Syntesser         | 2          |
+| Syntesser         | 3          |
 | Föreläsningar     | 14 av 14 ✓ |
 | Gamla tentor      | 8 av 8 ✓  |
-| Senast uppdaterad | 2026-04-21 |
+| Senast uppdaterad | 2026-04-22 |
